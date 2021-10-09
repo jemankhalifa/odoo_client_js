@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates>
+    <t t-name="POSTestWidget">
+        <div class="modal-dialog " role="dialog">
+            <div class="popup popup-selection">
+                <p class="title">Query Something</p>
+                <div >
+                    <table text-align="center" width="100%" style="border:1px;padding-left:1.16cm;">
+                       <input name="Name"/>
+                        
+                    </table>
+                </div>
+                <div class="footer">
+                    <div class="button confirm">
+                        Send
+                    </div>
+                    <div class="button cancel">
+                        Cancel
+                    </div>
+                </div>
+            </div>
+        </div>
+    </t>
+    </templates>

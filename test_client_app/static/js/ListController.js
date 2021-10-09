@@ -13,7 +13,8 @@ odoo.define('test_client_app.ButtonsInList', function (require) {
             }
         },
         o_button_click: function(e){
-
+          var self = this;
+    
             var action = {
                     type: 'ir.actions.client',
                     name: 'New Custom View',
@@ -26,7 +27,6 @@ odoo.define('test_client_app.ButtonsInList', function (require) {
     };
     ListController.include(includeDict);
     
-    
-    
-    });
+
+});
     

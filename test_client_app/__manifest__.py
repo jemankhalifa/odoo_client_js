@@ -3,7 +3,6 @@
     'name': "Test Client JS app",
 
     'summary': """
-    		Add a button in the Odoo list view actions buttons
         """,
 
     'description': """
@@ -11,14 +10,19 @@
 
     'author': "Eman khalifa",
     'website': "http://www.emankhalifa.com",
-    'version':'13.0',
-    'category': 'Accounting',
-    'depends': ['base','account'],
+    'category': 'Sale',
+    'depends': ['base', 'web','point_of_sale'],
     'data': [
+
+        "views/assets.xml",
 
 
     ],
     'qweb': [
-        "static/xml/ListAddButton.xml"
+        "static/xml/ListAddButton.xml",
+        "static/xml/pos_view.xml",
+        "static/xml/popup_view.xml"
+       
+        
     ],
 }

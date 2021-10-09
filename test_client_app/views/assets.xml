@@ -1,9 +1,18 @@
-   <template id="assets_backend" name="Accounts assets" inherit_id="web.assets_backend">
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <template id="assets_backend" name="Accounts assets" inherit_id="web.assets_backend">
             <xpath expr="." position="inside">
                
                
                 <script type="text/javascript" src="/test_client_app/static/js/ListController.js"/>
-              
-               
+
+                
+                <script type="text/javascript" src="/test_client_app/static/js/pos_popup.js"/>
+                <script type="text/javascript" src="/test_client_app/static/js/test_pos_add.js"/>
+                
+                
             </xpath>
-        </template>
+    </template>
+    </data>
+</odoo>

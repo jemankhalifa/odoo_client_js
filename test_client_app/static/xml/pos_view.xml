@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+
+      <t t-extend="ProductCategoriesWidget">
+        <t t-jquery=".breadcrumbs:last" t-operation="after">
+             <div class="breadcrumbs">
+                <span class="breadcrumb">
+                
+                    <span class=" breadcrumb-button open-test-popup">Test</span>
+                   
+                </span>
+            </div>
+        </t>
+    </t>
+    
+</templates>
