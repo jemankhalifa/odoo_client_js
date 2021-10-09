@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<templates id="template" xml:space="preserve">
+  <t t-extend="ListView.buttons">
+    <t t-jquery="button.o_list_export_xlsx" t-operation="after">
+        <t t-if="widget.modelName =='account.account'">
+        	<button class="btn btn-secondary fa fa-sitemap o_list_button"></button>
+       
+        </t>
+    </t>
+  </t>
+</templates>
