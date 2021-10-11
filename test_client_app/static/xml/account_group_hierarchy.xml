@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<templates  id="template" xml:space="preserve">
+    <t t-name="account_group_hierarchy">
+       
+        <div class="col-xs-12 col-md-12 col-lg-12 col-sm-8">
+
+          <center><h1>Opened new page to show result</h1></center>
+    
+               
+        </div>
+    </t>
+</templates>
