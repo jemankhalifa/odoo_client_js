@@ -21,7 +21,8 @@
     'qweb': [
         "static/xml/ListAddButton.xml",
         "static/xml/pos_view.xml",
-        "static/xml/popup_view.xml"
+        "static/xml/popup_view.xml",
+        "static/xml/account_group_hierarchy.xml",
        
         
     ],

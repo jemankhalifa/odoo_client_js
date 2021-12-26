@@ -13,15 +13,16 @@ odoo.define('test_client_app.ButtonsInList', function (require) {
             }
         },
         o_button_click: function(e){
-          var self = this;
-    
-            var action = {
+          
+                var action = {
                     type: 'ir.actions.client',
                     name: 'New Custom View',
-                    tag: 'account_custom_view',
+                    tag: 'account_group_hierarchy',
                   
                 };
                 this.do_action(action);
+           
+
     
         }
     };
