@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="assets" inherit_id="point_of_sale.assets" name="point_of_sale assets">
+            <xpath expr="." position="inside">
+             
+                <script type="text/javascript" src="/test_pos_custom/static/src/js/add_payment_method.js"/>
+
+                <script type="text/javascript" src="/test_pos_custom/static/src/js/discount_access.js"/>
+
+                <script type="text/javascript" src="/test_pos_custom/static/src/js/POS_limit.js"/>
+
+
+            </xpath>
+        </template>
+    </data>
+</odoo>
